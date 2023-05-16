@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      name: student-service
+  config:
+    import: configserver:http://localhost:8888
